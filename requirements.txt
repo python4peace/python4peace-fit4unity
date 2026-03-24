@@ -1,0 +1,9 @@
+streamlit
+flask
+numpy
+pandas
+opencv-python
+mediapipe
+folium
+schedule
+requests

@@ -1,0 +1,5 @@
+# Fit4Unity Parent/Guardian Contact List
+# Format: Name|Phone|Email|Relationship
+
+Example Guardian|+1234567890|guardian@email.com|Parent
+James Brown|+1987654321|james@email.com|Trainer
