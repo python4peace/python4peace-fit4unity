@@ -1,5 +1,6 @@
 streamlit
 flask
+flask-cors
 numpy
 pandas
 opencv-python
