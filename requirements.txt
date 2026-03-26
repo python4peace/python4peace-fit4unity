@@ -1,6 +1,5 @@
 streamlit
 flask
-flask-cors
 numpy
 pandas
 opencv-python
@@ -8,3 +7,5 @@ mediapipe
 folium
 schedule
 requests
+streamlit_folium
+flask_cors
