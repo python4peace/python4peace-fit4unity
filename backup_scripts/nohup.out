@@ -1,0 +1,21 @@
+🎵 Fit4Unity Parent Server Starting...
+📱 Parent dashboard available at: http://0.0.0.0:5000
+🔗 API endpoint: http://0.0.0.0:5000/api/live-data
+🛑 Press Ctrl+C to stop
+ * Serving Flask app 'simple_flask_parent_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.73:5000
+[33mPress CTRL+C to quit[0m
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.73:8501
+  External URL: http://172.88.120.156:8501
+
