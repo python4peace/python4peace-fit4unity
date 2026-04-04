@@ -1,5 +1,73 @@
-nohup: ignoring input
-Usage: streamlit run [OPTIONS] [TARGET] [ARGS]...
-Try 'streamlit run --help' for help.
 
-Error: Invalid value: File does not exist: fit4unity_complete.py
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.73:8501
+  External URL: http://172.88.120.156:8501
+
+  Stopping...
+13:11.252 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 105, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/app.py", line 279, in <module>
+    portal_app.run_portal()
+  File "/home/fit4peace/fit4unity/app.py", line 274, in run_portal
+    self.add_resident_session()
+  File "/home/fit4peace/fit4unity/app.py", line 202, in add_resident_session
+    dob = self.listen(lang_code)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/app.py", line 184, in listen
+    with sr.Microphone() as source:
+         ^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 77, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 107, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
+2026-04-04 14:14:08.316 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 105, in get_pyaudio
+    import pyaudio
+ModuleNotFoundError: No module named 'pyaudio'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/app.py", line 279, in <module>
+    portal_app.run_portal()
+  File "/home/fit4peace/fit4unity/app.py", line 274, in run_portal
+    self.add_resident_session()
+  File "/home/fit4peace/fit4unity/app.py", line 202, in add_resident_session
+    dob = self.listen(lang_code)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/app.py", line 184, in listen
+    with sr.Microphone() as source:
+         ^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 77, in __init__
+    self.pyaudio_module = self.get_pyaudio()
+                          ^^^^^^^^^^^^^^^^^^
+  File "/home/fit4peace/fit4unity/.venv/lib/python3.12/site-packages/speech_recognition/__init__.py", line 107, in get_pyaudio
+    raise AttributeError("Could not find PyAudio; check installation")
+AttributeError: Could not find PyAudio; check installation
