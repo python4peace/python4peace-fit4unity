@@ -3,7 +3,6 @@ import sqlite3
 import os
 from fpdf import FPDF
 import speech_recognition as sr
-from googletrans import Translator
 from gtts import gTTS
 
 def run_portal():
@@ -26,7 +25,6 @@ def run_portal():
 class ElderlyCarePortal:
     def __init__(self):
         self.db_name = "care_center.db"
-        self.translator = Translator()
         self.recognizer = sr.Recognizer()
         self.init_db()
 

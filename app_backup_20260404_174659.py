@@ -18,7 +18,6 @@ import streamlit as st
 import sqlite3
 import speech_recognition as sr
 from fpdf import FPDF
-from googletrans import Translator
 from gtts import gTTS
 
 # ==============================
@@ -147,7 +146,6 @@ elif menu == "🏥 Care Portal":
     class ElderlyCarePortal:
         def __init__(self):
             self.db_name = "care_center.db"
-            self.translator = Translator()
             self.recognizer = sr.Recognizer()
             self.init_db()
 
