@@ -12,7 +12,6 @@ import streamlit as st
 import sqlite3
 import speech_recognition as sr
 from fpdf import FPDF
-from googletrans import Translator
 from gtts import gTTS
 
 # ==============================
