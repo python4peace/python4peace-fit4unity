@@ -1,14 +1,9 @@
-streamlit
-flask
+streamlit==1.32.0
 numpy
 pandas
 opencv-python-headless
 mediapipe
 folium
 streamlit-folium
-schedule
-requests
-speechrecognition
-gtts
-googletrans==4.0.0-rc1
 fpdf
+gTTS
