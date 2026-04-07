@@ -1,10 +1,13 @@
-streamlit==1.40.0
+kstreamlit==1.40.0
 numpy==1.24.4
 pandas==1.5.3
-opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84   # or opencv-python==4.10.0.84
 mediapipe==0.10.14
 folium==0.16.0
 streamlit-folium==0.16.0
 fpdf==1.7.2
 gTTS==2.5.1
 SpeechRecognition==3.10.2
+flask
+cryptography
+pyopenssl
