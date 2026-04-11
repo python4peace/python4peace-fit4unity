@@ -1,5 +1,4 @@
 streamlit==1.40.0
-numpy==1.24.4
 pandas==1.5.3
 opencv-python-headless==4.10.0.84   # or opencv-python==4.10.0.84
 mediapipe==0.10.14
