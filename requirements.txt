@@ -1,6 +1,6 @@
 streamlit==1.40.0
 numpy==1.26.4
-pandas==1.5.3
+pandas==2.2.2 --only-binary=:all:
 opencv-python-headless==4.10.0.84   # or opencv-python==4.10.0.84
 mediapipe==0.10.14
 folium==0.16.0
