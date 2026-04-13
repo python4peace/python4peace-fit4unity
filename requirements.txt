@@ -1,13 +1,14 @@
-streamlit==1.40.0
-numpy==1.26.4
-pandas==2.2.2 --only-binary=:all:
-opencv-python-headless==4.10.0.84   # or opencv-python==4.10.0.84
+streamlit==1.42.0
+numpy>=1.26.4,<2.0
+pandas==2.2.3
+opencv-python-headless==4.10.0.84
 mediapipe==0.10.14
-folium==0.16.0
-streamlit-folium==0.16.0
+folium==0.19.5
+streamlit-folium==0.24.0
 fpdf2==2.7.9
-gTTS==2.5.1
-SpeechRecognition==3.10.2
-flask
-cryptography
-pyopenssl
+gTTS==2.5.4
+SpeechRecognition==3.10.4
+flask==3.1.0
+cryptography==44.0.2
+pyopenssl==25.0.0
+python-dotenv==1.1.0
