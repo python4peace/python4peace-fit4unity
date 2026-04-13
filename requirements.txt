@@ -5,7 +5,7 @@ opencv-python-headless==4.10.0.84   # or opencv-python==4.10.0.84
 mediapipe==0.10.14
 folium==0.16.0
 streamlit-folium==0.16.0
-fpdf==1.7.2
+fpdf2==2.7.9
 gTTS==2.5.1
 SpeechRecognition==3.10.2
 flask
